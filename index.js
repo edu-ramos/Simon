@@ -4,6 +4,7 @@ const naranja = document.getElementById('naranja')
 const verde = document.getElementById('verde')
 const btnEmpezar = document.getElementById('btnEmpezar')
 const UltimoNivel = 5
+const nombre = prompt('Escribe tu nombre').toUpperCase().trim()
 
 class Juego {
   constructor() {
@@ -109,11 +110,11 @@ class Juego {
     }
   }
   ganaste() {
-    alert('Felicitaciones, Ganaste el Juego')
+    alert(`Felicitaciones ${nombre}, Ganaste el Juego`)
     this.inicializar()
   }
   perdiste() {
-    alert('Que pena, Perdiste el juego. Sigue intentanto')
+    alert(`Que pena ${nombre}, Perdiste el juego. Sigue intentanto`)
     this.eliminarEventoClick()
     this.inicializar()
   }
