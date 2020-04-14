@@ -82,3 +82,61 @@ h1{
 .hide {
   display: none;
 }
+
+@media (max-width:320px){
+  h1 {
+    color: white;
+    position: fixed;
+    top: 10px;
+    left: 25%;
+  }
+  .btn-start {
+    width: 300px;
+    height: 70px;
+    background: #ecf0f1;
+    color: #2c3e50;
+    font-size: 2.0rem;
+    position: absolute;
+    top: calc(50% - 40px);
+    left: calc(50% - 150px);
+    border-radius: 15px;
+  }
+}
+@media (max-width:420px){
+  h1 {
+    color: white;
+    position: fixed;
+    top: 10px;
+    left: 31%;
+  }
+  .btn-start {
+    width: 300px;
+    height: 60px;
+    background: #ecf0f1;
+    color: #2c3e50;
+    font-size: 2.0rem;
+    position: absolute;
+    top: calc(50% - 30px);
+    left: calc(50% - 150px);
+    border-radius: 15px;
+  }
+}
+@media (max-width:768px){
+  h1 {
+    color: white;
+    position: fixed;
+    top: 10px;
+    left: 40%;
+  }
+  .btn-start {
+    width: 300px;
+    height: 60px;
+    background: #ecf0f1;
+    color: #2c3e50;
+    font-size: 2.0rem;
+    position: absolute;
+    top: calc(50% - 30px);
+    left: calc(50% - 150px);
+    border-radius: 15px;
+  }
+}
